@@ -1,0 +1,21 @@
+/* 一个简单的加载动画，跳动的小球 */
+@keyframes custom-bounce {
+	0%,100% {
+	  transform:translateY(0);
+	}
+	50% {
+	  transform:translateY(-20px);
+	}
+  }
+  
+  .custom-preloader {
+	display:block;
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:30px;
+	height:30px;
+	background-color:#29d;
+	border-radius:50%;
+	animation:custom-bounce 0.5s infinite alternate;
+  }

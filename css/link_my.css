@@ -1,0 +1,79 @@
+#article-container .flink .flink-list > .flink-list-item a .flink-item-icon img {
+    object-fit: scale-down !important;
+}
+#article-container .flink .flink-item-desc {
+    white-space: normal;
+    overflow: inherit;
+}
+#article-container .flink .flink-list > .flink-list-item {
+    height: 140px;
+}
+.layout {
+    max-width: none;
+}
+
+#page-header.full_page {
+    background-attachment: scroll;
+}
+
+#body-wrap {
+    background-color: #fff;
+}
+#page-header #site-title {
+    margin-top: -30px;
+}
+.user-task-content {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    height: 100px;
+    line-height: 100px;
+}
+
+.user-task-content div a {
+    color: #000;
+    padding: 20px;
+    font-weight: 600;
+}
+.user-task-content div a:hover {
+    color: #0c9b7b;
+}
+.flink-list-item {
+    box-shadow: 0 3px 8px 6px rgba(7,17,27,0.05);
+}
+
+/* loading修改css */
+#loading-box .spinner-box .configure-core {
+    display: none!important;
+}
+
+#loading-box .spinner-box .configure-border-1 {
+    width: 120px!important;
+    height: 120px!important;
+    animation: none !important;
+    background-color: transparent!important; /* 兜底背景颜色 */
+    background-repeat: no-repeat!important; /* 禁止背景重复 */
+    background-image: url(../images/loading.gif)!important;
+    background-size: 100%!important;
+}
+
+.loading-word {
+    display: none!important;
+}
+
+#loading-box .spinner-box .configure-border-2 {
+    display: none!important;
+}
+
+.loading-bg, #loading-box .loading-left-bg, #loading-box .loading-right-bg {
+    background-color: rgb(240 242 245 / 40%)!important;
+}
+/* loading修改css */
+
+#aside-content .card-info .card-info-data {
+    display: none!important;
+}
+#article-container .flink .flink-list > .flink-list-item {
+    -webkit-transform: none!important;
+}
+
